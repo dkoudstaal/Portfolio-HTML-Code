@@ -1,0 +1,290 @@
+/* Start of default settings */
+header, section, article, aside, figure, figcaption, nav, footer, video, address {
+    display: block;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    margin-left: calc(100vw - 100%);
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+}
+body {
+    display: block;
+    font-family: Georgia, "Trebuchet MS", sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: #FDFDF0;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+    padding-left: 20px;
+}
+
+article header p {
+    font-size: 95%;
+    padding-left: 0px;
+}
+article ul {
+    list-style: none;
+    padding-left: 20px;
+}
+article p {
+    padding-bottom: 7px;
+    padding-left: 20px;
+}
+article blockquote {
+    font-size: 90%;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 7px;
+}
+
+aside#backToTop{
+position:fixed;
+    top: 5px;
+    right: 30px;
+    display:block;
+    z-index: 20;
+}
+aside#backToBottom{
+position:fixed;
+    top: 40px;
+    right: 30px;
+    display:block;
+    z-index: 20;
+}
+aside img{
+}
+#backToTop a {
+    background: url(../images/up-arrow.png);
+    display: block;
+    top: 3px;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    border-width: 0;
+}
+#backToTop a:hover {
+background-color: green;
+}
+#backToBottom a {
+    background: url('../images/down-arrow.png');
+    display: block;
+    top: 3px;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    border-width: 0;
+}
+#backToBottom a:hover {
+background-color: green;
+}
+
+code {
+    font-size: 90%;
+}
+
+div#container {
+    display: block;
+    position: relative;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#topScreen {
+    display: block;
+    position: relative;
+    width 100%;
+    height: 36px;
+    z-index: 30;
+    background-color: #FDFDF0;
+    }
+
+figure {
+    padding-top: 5px;
+}
+figure.floatLeft {
+    display: block;
+    float: left;
+}
+figure.floatRight {
+    display: block;
+    float: right;
+}
+
+h2 {
+    font-size: 105%;
+    font-weight: normal;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+section header p {
+    font-size: 95%;
+    padding-left: 0px;
+}
+
+ul.indent {
+   margin-left: 10px;
+   font-size: 90%;
+}
+
+#leftSide {
+    display: block;
+    width: 20%;
+    float: left;
+    z-index: 10;
+    text-align: left;
+}
+#leftSide h2 {
+    padding-top: 0px;;
+}
+#leftSide ul {
+    list-style: none;
+    /*	margin-left:0;
+    padding-left:0;*/
+    padding-bottom: 5px;
+}
+#leftSide li {
+    line-height: 130%;
+    font-size: 100%
+}
+
+#pageHeader{
+    display: block;
+    position: relative;
+    padding-left:0px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#pageHeader h1 {
+    font-size: 110%;
+    font-weight: normal;
+}
+#pageHeader img {
+    margin: 0px;
+    padding: 0px;
+    width: 75px;
+}
+
+#pageFooter {
+    clear: both;
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 160px;
+    text-align: center;
+}
+#pageFooter p {
+    font-size: 90%;
+    padding-bottom: 0px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.rightSide {
+    display: block;
+    position: relative;
+    width: 75%;
+    float: right;
+    z-index: 10;
+}
+
+/*these are table settings if you want to use a table in your Portfolio
+Some of the classes below can be used in your document at large*/
+
+table {
+    caption-side: top;
+    border-collapse: collapse;
+    font-family: Georgia, "Trebuchet MS", sans-serif;
+    font-size: 95%;
+    font-weight: normal;
+    border: 1px solid #000000;
+    margin: 10px 25px 10px 25px;
+}
+table thead {
+    background-color: #F6DA74;
+}
+table caption {
+    font-size: 105%;
+    padding-bottom: 10px;
+}
+th {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 4px;
+    margin: 0px;
+    border: 1px solid #000000;
+}
+
+td {
+    padding: 2px 5px 2px 10px;
+    margin: 0px; 
+    border: 1px solid #000000;
+}
+td > p {
+    padding-bottom: 3px;
+}
+col.col15 {
+    width: 15%;
+}
+col.col60 {
+    width: 60%;
+}
+col.col40 {
+    width: 40%;
+}
+col.col25 {
+    width: 25%;
+}
+col.col10 {
+    width: 10%;
+}
+col.col33 {
+    width: 33%;
+}
+
+.padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.smallFont {
+    font-size:80%;
+}
+.textCenter {
+    text-align:center;
+}
+.colorGreen  {
+    background-color: #00FF33;
+}
+.colorOrange {
+    background-color: #FF9900;
+}
+.colorBlue {
+    background-color: #00CCFF;
+}
+.colorYellow {
+    background-color: #FFFF00;
+}

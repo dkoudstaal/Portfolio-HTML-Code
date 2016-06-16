@@ -1,0 +1,21 @@
+This is the portfolio of:
+ Leigh Student
+ Student Lane
+ Student City
+ mobile: 0111111
+
+My portfolio should open in most of the recent browser versions.
+However, the portfolio html pages with the associated css are
+optimised for the Chrome and Firefox browsers.
+
+To open my portfolio:
+-- Locate the file Open-Portfolio.html in yoiur file manager
+-- Double click on the file and it should open in your default 
+   browser.
+   
+If you want to open the portfolio in an outher browser:
+-- Open your browser
+-- Press the Ctrl key together with the O key
+-- Your file manager should open
+-- Locate the file Open-Portfolio.html and click the
+   "Open" button
