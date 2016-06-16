@@ -8,7 +8,7 @@
    * [CSS3 Files](css3_files.md)
    * [JavaScript Files](javascript_files.md)
    * [Image Files](image_files.md)
-   * Video Files
+   * [Video Files](video_files.md)
    * Audio Files
    * PDF Files
    * Download Files
