@@ -2,7 +2,7 @@
 # About Portfolio HTML Structure
 
 
-The HTML code is a simple structure for the creation of an electronic portfolio.
+ The HTML code is a simple structure for the creation of an electronic portfolio.
 
 I have created this simple HTML Portfolio Structure for high-school and college students. The HTML mark-up allows you to create a digital portfolio which you can use with a job application or with an educational institution's entry application.
 
