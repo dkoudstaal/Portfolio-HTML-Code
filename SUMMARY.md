@@ -9,7 +9,7 @@
    * [JavaScript Files](javascript_files.md)
    * [Image Files](image_files.md)
    * [Video Files](video_files.md)
-   * Audio Files
+   * [Audio Files](audio_files.md)
    * PDF Files
    * Download Files
 
