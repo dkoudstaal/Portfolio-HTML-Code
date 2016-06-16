@@ -4,9 +4,8 @@
 
 The HTML code is a simple structure for the creation of an electronic portfolio.
 
-I have created this simple HTML portfolio structure for high-school and college students. This portfolio structure is mainly for students seeking IT type employment. 
-You can use this mark-up to present your work on Python, the Raspberry Pi and any other academic achievements.
+I have created this simple HTML Portfolio Structure for high-school and college students. The HTML mark-up allows you to create a digital portfolio which you can use with a job application or with an educational institution's entry application.
 
-This code enables you to present a flash-drive with your portfolio to any potential employer or educational institution. The code is designed as a stand-alone and not for a server.
+Once you created your portfolio, you can present the digital portfolio on a flash-drive to any interested person or organisation. I have also used JavaScript and CSS3 as part of the design and behaviour of this portfolio. The code is tested with the latest Firefox, Chrome and Explorer browsers
 
-I have used [Alex Gorbatchev's SyntaxHighlighter](http://alexgorbatchev.com/SyntaxHighlighter/) in this portfolio framwork to represent your Python code.
+I have incorporated [Alex Gorbatchev's SyntaxHighlighter](http://alexgorbatchev.com/SyntaxHighlighter/) in this portfolio structure for the easy presentation of programming code.
