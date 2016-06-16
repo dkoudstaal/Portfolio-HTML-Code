@@ -10,6 +10,6 @@
    * [Image Files](image_files.md)
    * [Video Files](video_files.md)
    * [Audio Files](audio_files.md)
-   * PDF Files
+   * [PDF Files](pdf_files.md)
    * Download Files
 
