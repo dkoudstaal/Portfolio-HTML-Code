@@ -11,5 +11,5 @@
    * [Video Files](video_files.md)
    * [Audio Files](audio_files.md)
    * [PDF Files](pdf_files.md)
-   * Download Files
+   * [Download Files](download_files.md)
 
