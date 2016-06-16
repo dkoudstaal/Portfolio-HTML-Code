@@ -1,2 +1,2 @@
-# JavaScript Files
+## JavaScript Files
 
