@@ -6,7 +6,7 @@
    * [Home Page](home_page.md)
    * [Portfolio Page](portfolio_page.md)
    * [CSS3 Files](css3_files.md)
-   * JavaScript Files
+   * [JavaScript Files](javascript_files.md)
    * Image Files
    * Video Files
    * Audio Files
