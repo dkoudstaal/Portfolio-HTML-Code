@@ -14,7 +14,6 @@ function init()
                   '<li><a href="./index.html#linkAcademic">Academic</a></li>' +
                   '<li><a href="./index.html#linkReferees">Referees</a></li>' +
                   '<li><a href="./index.html#linkMoreAboutMe">More About Me</a></li>' +               
-               '</ul>' +
             '<li><a href="./it.html">IT Skills</a></li>' +
                 '<ul class="indent">' +
                     '<li><a href="./python-code.html">Python Code</a></li>');
@@ -29,7 +28,6 @@ function init()
                   '<li><a href="./.data/pages/index.html#linkAcademic">Academic</a></li>' +
                   '<li><a href="./.data/pages/index.html#linkReferees">Referees</a></li>' +
                   '<li><a href="./.data/pages/index.html#linkMoreAboutMe">More About Me</a></li>' +               
-               '</ul>' + 
             '<li><a href="./.data/pages/it.html">IT Skills</a></li>' +
                 '<ul class="indent">' +
                     '<li><a href="./.data/pages/python-code.html">Python Code</a></li>');
