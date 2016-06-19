@@ -6,31 +6,35 @@ function init()
 	
 	if (menu) {
 		menu.insertAdjacentHTML('afterBegin',
-		       '<li><a href="../../Open-Portfolio.html">Home&nbsp;Page</a></li>' +
-            '<li><a href="./index.html">Details</a></li>' +
+		    '<li><a href="../../Open-Portfolio.html">Cover Page</a></li>' +
+            '<li><a href="./index.html">Resume</a></li>' +
                 '<ul class="indent">' +
-                 '<li><a href="./index.html#linkContactDetails">Contact</a></li>' +
-                  '<li><a href="./index.html#linkPersonalDetails">Personal</a></li>' +
-                  '<li><a href="./index.html#linkAcademic">Academic</a></li>' +
-                  '<li><a href="./index.html#linkReferees">Referees</a></li>' +
-                  '<li><a href="./index.html#linkMoreAboutMe">More About Me</a></li>' +               
+                    '<li><a href="./index.html#linkContactDetails">Contact</a></li>' +
+                    '<li><a href="./index.html#linkPersonalDetails">Personal</a></li>' +
+                    '<li><a href="./index.html#linkAcademic">Academic</a></li>' +
+                    '<li><a href="./index.html#linkReferees">Referees</a></li>' +
+                    '<li><a href="./index.html#linkMoreAboutMe">More About Me</a></li>' + 
+                  '</ul>' +              
             '<li><a href="./it.html">IT Skills</a></li>' +
                 '<ul class="indent">' +
-                    '<li><a href="./python-code.html">Python Code</a></li>');
+                    '<li><a href="./python-code.html">Python Code</a></li>' +
+                '</ul>');
 	}
 	else if (menuFP) {
 		menuFP.insertAdjacentHTML('afterBegin',
-		       '<li><a href="./Open-Portfolio.html">Home&nbsp;Page</a><li>' +
-            '<li><a href="./.data/pages/index.html">Details</a></li>' +
-                 '<ul class="indent">' +
-                 '<li><a href="./.data/pages/index.html#linkContactDetails">Contact</a></li>' +
-                  '<li><a href="./.data/pages/index.html#linkPersonalDetails">Personal</a></li>' +
-                  '<li><a href="./.data/pages/index.html#linkAcademic">Academic</a></li>' +
-                  '<li><a href="./.data/pages/index.html#linkReferees">Referees</a></li>' +
-                  '<li><a href="./.data/pages/index.html#linkMoreAboutMe">More About Me</a></li>' +               
+		       '<li><a href="./Open-Portfolio.html">Cover Page</a><li>' +
+            '<li><a href="./.data/pages/index.html">Resume</a></li>' +
+                '<ul class="indent">' +
+                    '<li><a href="./.data/pages/index.html#linkContactDetails">Contact</a></li>' +
+                    '<li><a href="./.data/pages/index.html#linkPersonalDetails">Personal</a></li>' +
+                    '<li><a href="./.data/pages/index.html#linkAcademic">Academic</a></li>' +
+                    '<li><a href="./.data/pages/index.html#linkReferees">Referees</a></li>' +
+                    '<li><a href="./.data/pages/index.html#linkMoreAboutMe">More About Me</a></li>' +
+                 '</ul>' +               
             '<li><a href="./.data/pages/it.html">IT Skills</a></li>' +
                 '<ul class="indent">' +
-                    '<li><a href="./.data/pages/python-code.html">Python Code</a></li>');
+                    '<li><a href="./.data/pages/python-code.html">Python Code</a></li>' +
+                 '</ul>');
 	}
 	
 	var footer=document.getElementById('insertFooter');
