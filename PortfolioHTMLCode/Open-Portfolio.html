@@ -2,10 +2,6 @@
 <html lang="en-AU">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Portfolio of Leigh Student">
-    <meta name="keywords" content="Portfolio, Leigh, Student, IT">
-    <meta name="author" content="Leigh Student" >	
-    <meta name="date" content="2016-06-15T12:35:07+1000" >
     <title>Portfolio Leigh Student</title>
     <link rel="stylesheet" href="./.data/css/styles.css">
 </head>
@@ -13,13 +9,14 @@
 <body>
     <div id="topScreen"></div>
     <div id="container"> 
-        <section class="rightSide">
+        <main class="rightSide">
             <header id="pageHeader">
                 <h1>Portfolio of Leigh Student</h1>
                     <p>for the Application of Trainee Programmer <br>with Tassie Games & System Software</p> 
-            </header>   	
+            </header>
+               	
             <figure class="centre">
-                <img src="./.data/images/binders2.png" usemap="#open" alt="Link to Portfolio" width="100px">
+                <img src="./.data/images/binders2.png" usemap="#open" alt="Link to Portfolio" width="75px">
                 <figcaption>
                     <map name="open">
                     <area shape="rect" coords="0,10,200,80" href="./.data/pages/index.html" alt="Link to Portfolio">
@@ -27,23 +24,32 @@
                     <a href="./.data/pages/index.html">Open Portfolio of Leigh Student</a>
                 </figcaption>
             </figure>
-            <figure class="centre">
-                <img src="./.data/images/me.png" width="150" alt="Photo of Leigh Student">
+            <figure class="floatLeft">
+                <img src="./.data/images/me.png" width="100px" alt="Photo of Leigh Student">
             </figure>
             
-            <h2>Please Note:</h2>
-                <p>My Portfolio is HTML5 and CSS3 compliant and will work with the latest version of your browser.</p>
-                <p>However, I have used features that work best with the Chrome and Firefox browsers.</p>
-                <p>For more information read the <a href="./Read-Me.txt" target="_blank">Read Me File</a>.</p>
-        </section>
+            <address>
+                Leigh Student<br>
+                Student Lane<br>
+                Student City<br>
+                Tasmania<br>
+                Mobile: 0111 111 111<br />
+                Email: leigh.student@student.tas
+            </address>
+            <article class="clear">
+                <h2>Please Note:</h2>
+                    <p>My Portfolio is HTML5 and CSS3 compliant and will work with the latest version of your browser.</p>
+                    <p>However, I have used features that work best with the Chrome and Firefox browsers.</p>
+                    <p>For more information please read the <a href="./Read-Me.txt" target="_blank">Read Me File</a>.</p>
+            </article>
+        </main>
           
-        <section id="leftSide">
-            <header ><h2 >Menu</h2></header>
-            <nav>
+            <nav class="leftSide">
+            <h2>Navigation</h2>
             <ul id="insertMenuFP">
             </ul>
             </nav>
-        </section>
+
         <aside id="backToTop"><a href="#topScreen"></a></aside> 
         <aside id="backToBottom"><a href="#pageFooter" ></a></aside>         
         <footer id="pageFooter">
