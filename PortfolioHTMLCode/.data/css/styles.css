@@ -1,5 +1,5 @@
 /* Start of default settings */
-header, section, article, aside, figure, figcaption, nav, footer, video, address {
+main, header, section, article, aside, figure, figcaption, nav, footer, video, address {
     display: block;
 }
 * {
@@ -49,6 +49,10 @@ article blockquote {
     padding-bottom: 7px;
 }
 
+article.clear {
+    clear: both;
+}
+
 aside#backToTop{
 position:fixed;
     top: 5px;
@@ -65,6 +69,7 @@ position:fixed;
 }
 aside img{
 }
+
 #backToTop a {
     background: url(../images/up-arrow.png);
     display: block;
@@ -98,6 +103,10 @@ background-color: green;
 background-color: green;
 }
 
+.centre {
+    text-align: center;
+}
+
 code {
     font-size: 90%;
 }
@@ -119,11 +128,13 @@ div#topScreen {
     }
 
 figure {
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 figure.floatLeft {
     display: block;
     float: left;
+    margin: 10px;
 }
 figure.floatRight {
     display: block;
@@ -147,31 +158,31 @@ ul.indent {
    font-size: 90%;
 }
 
-#leftSide {
+.leftSide {
     display: block;
     width: 20%;
     float: left;
     z-index: 10;
     text-align: left;
 }
-#leftSide h2 {
+.leftSide h2 {
     padding-top: 0px;;
 }
-#leftSide ul {
+.leftSide ul {
     list-style: none;
     /*	margin-left:0;
     padding-left:0;*/
     padding-bottom: 5px;
 }
-#leftSide li {
+.leftSide li {
     line-height: 130%;
     font-size: 100%
 }
 
 #pageHeader{
-    display: block;
+/*    display: block;
     position: relative;
-    padding-left:0px;
+    padding-left:0px;*/
     text-align: center;
     margin-bottom: 5px;
 }
@@ -197,10 +208,6 @@ ul.indent {
 #pageFooter p {
     font-size: 90%;
     padding-bottom: 0px;
-}
-
-.centre {
-    text-align: center;
 }
 
 .rightSide {
