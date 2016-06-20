@@ -53,21 +53,19 @@ article.clear {
     clear: both;
 }
 
-aside#backToTop{
+#backToTop{
 position:fixed;
     top: 5px;
     right: 30px;
     display:block;
     z-index: 20;
 }
-aside#backToBottom{
+#backToBottom{
 position:fixed;
     top: 40px;
     right: 30px;
     display:block;
     z-index: 20;
-}
-aside img{
 }
 
 #backToTop a {
@@ -197,7 +195,7 @@ nav li {
     width: 75px;
 }
 
-#pageFooter {
+footer {
     clear: both;
     display: block;
     position: relative;
@@ -206,7 +204,7 @@ nav li {
     padding-left: 160px;
     text-align: center;
 }
-#pageFooter p {
+footer p {
     font-size: 90%;
     padding-bottom: 0px;
 }
